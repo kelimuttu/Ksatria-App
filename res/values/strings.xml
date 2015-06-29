@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aplikasi Ksatria</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_belajar">Belajar</string>
+    <string name="title_activity_bermain">Bermain</string>
+    <string name="title_activity_ksatria1">Pangeran Diponegoro</string>
+    <string name="title_activity_ksatria2">Pattimura</string>
+    <string name="title_activity_ksatria3">R.A Kartini</string>
+    <string name="title_activity_ksatria4">Dewi Sartika</string>
+    <string name="title_activity_ksatria5">Cut Nyak Dhien</string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="tentang">Tentang</string>
+    <string name="cari">Cari</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mainpackage.ksatria"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Ksatria" >
+
+        <!-- Splash screen -->
+        <activity
+            android:name="mainpackage.ksatria.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mainpackage.ksatria.Beranda"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mainpackage.ksatria.Tentang"
+            android:label="@string/app_name"
+            android:parentActivityName="mainpackage.ksatria.Beranda" >
+        </activity>
+        <activity
+            android:name="mainpackage.ksatria.Ksatria1"
+            android:label="@string/app_name"
+            android:parentActivityName="mainpackage.ksatria.Beranda" >
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mainpackage.ksatria.Beranda" />
+        </activity>
+        <activity
+            android:name="mainpackage.ksatria.Ksatria2"
+            android:label="@string/app_name"
+            android:parentActivityName="mainpackage.ksatria.Beranda" >
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mainpackage.ksatria.Beranda" />
+        </activity>
+        <activity
+            android:name="mainpackage.ksatria.Ksatria3"
+            android:label="@string/app_name"
+            android:parentActivityName="mainpackage.ksatria.Beranda" >
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mainpackage.ksatria.Beranda" />
+        </activity>
+        <activity
+            android:name="mainpackage.ksatria.Ksatria4"
+            android:label="@string/app_name"
+            android:parentActivityName="mainpackage.ksatria.Beranda" >
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mainpackage.ksatria.Beranda" />
+        </activity>
+        <activity
+            android:name="mainpackage.ksatria.Ksatria5"
+            android:label="@string/app_name"
+            android:parentActivityName="mainpackage.ksatria.Beranda" >
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mainpackage.ksatria.Beranda" />
+        </activity>
+        <activity
+            android:name="ksatria.quiz.QuizActivity"
+            android:label="Ksatria Quiz" >
+        </activity>
+        <activity
+            android:name="ksatria.quiz.ResultActivity"
+            android:label="@string/app_name"
+			android:parentActivityName="mainpackage.ksatria.Beranda" >
+
+            <!-- Parent activity meta-data to support API level 7+ -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mainpackage.ksatria.Beranda" />
+        </activity>
+    </application>
+
+</manifest>
